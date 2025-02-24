@@ -1,7 +1,7 @@
 import os
 os.system ("clear")
 
-idade = 16
+idade = 20
 
 #se idade <18 entao
 #   esreval("acesso negado.")

@@ -12,7 +12,7 @@ media = soma/3
 print(f"media: (media)")
 
 if media > 7:
-    print("reprovado")
-else:
     print("aprovado")
+else:
+    print("reprovado")
     

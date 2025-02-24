@@ -8,7 +8,7 @@ idade: int #Equivalente ao tiupo inteiro
 altura: float #Equivalente a real
 
 nome= "marta"
-idade= 23
+idade= 17
 altura= 1.65
 
 print(nome)
