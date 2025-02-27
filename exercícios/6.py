@@ -7,6 +7,6 @@ senha = str(input("Senha: "))
 if  login or senha == False:
     print("Login e/ou Senha incorretos")
 else:
-    print("Seja Bem Vindo! ")
+    print(f"\nlogin: {login}")
 
-print(f"\nlogin: {Login}")
+print("seja bem vindo")
