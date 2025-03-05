@@ -1,12 +1,13 @@
 import os
-os.system ("clear")
+os.system("clear")
 
-login = str(input("Login: "))
-senha = str(input("Senha: "))
+idade = int(input("Digite sua idade: "))
 
-if  login or senha == False:
-    print("Login e/ou Senha incorretos")
+
+if idade >= 18 and idade <= 65:
+ resultado = ("Voto obrigatótio.")
+
 else:
-    print(f"\nlogin: {login}")
+ resultado = "Não é obrigado a votar. "
 
-print("seja bem vindo")
+print(f"\nresultado: {resultado}")

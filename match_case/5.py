@@ -5,7 +5,7 @@ valor_produto = int(input("Digitr valor do produto"))
 forma_pagamento = int(input("""
 1 = A vista
 2 = A prazo
-Digite a for de pagamento""")                            
+Digite a for de pagamento"""))                           
 
 match forma_pagamento:
     case 1:
@@ -14,8 +14,7 @@ match forma_pagamento:
     case 2:
           
     case _:
-    print("Opçao inválida")
+        print("opção invalída")
 
-       
-       
-       print("==FIM==")       
+    
+    
