@@ -8,5 +8,5 @@ altura = float(input("Digite sua altura: "))
 
 # escreval("nome: ", nome)
 print (f"nome:   {nome} ")
-print(f"idade:  {IDADE} ")
-print(f"altura: {ALTURA} ")
+print(f"idade:  {idade} ")
+print(f"altura: {altura} ")
