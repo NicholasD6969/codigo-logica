@@ -2,8 +2,8 @@ import os
 os.system("clear")
 
 # Solicitando Dados.
-nome = input("Digite seu nome: ")
-idade = int (input("digite sua idade: "))
+nome = str(input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
 altura = float(input("Digite sua altura: "))
 
 # escreval("nome: ", nome)
