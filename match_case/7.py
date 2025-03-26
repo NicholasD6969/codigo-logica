@@ -26,4 +26,4 @@ match conceito:
         print(f"Conceito: {conceito}") 
         print("Reprovado.")
     case _:
-        print("Opção invalída.")          
+        print("Opção invalída.") 

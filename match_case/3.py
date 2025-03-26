@@ -1,14 +1,12 @@
 import os
 os.system
 
-
 opçao = int(input("""
 código \t Prato \t\t\t valor
 1 \t Picanha \t\t R$ 25,00
 3 \t strogonoff \t R$ 18,00
-4 \t Bufe acebolado \t R$ 15,00
+4 \t Bife acebolado \t R$ 15,00
 5 \t Pão com ovo \t\t R$ 5,00
-
 Digite a opção desejada:
 """))
 
@@ -23,11 +21,12 @@ match opçao:
         prato = "strogonoff"
         valor =  18,00
     case 4:
-        prato = "Bufe acebolado"
+        prato = "Bife acebolado"
         valor =  15,00
     case 5:
         prato = "Pão com ovo"
         valor =  5,00
+
         print(f"\prato escolhido: {prato}")                 
         print(f"\valor: {valor}") 
 
