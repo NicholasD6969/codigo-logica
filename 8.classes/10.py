@@ -30,4 +30,11 @@ with open (nome_arquivo, "w") as arquivo_pessoa:
 
 print("\nexibindo dados") 
 
+try:
+    with open(nome_arquivo, "r", encoding="utf-8") as arquivo:
+        dados = arquivo.readlines()
+        for dado in dados:
+            print(f"{dado.strip()}")
+except FileNotFoundError:
+    print("Arquivo não encontrado")            
 
