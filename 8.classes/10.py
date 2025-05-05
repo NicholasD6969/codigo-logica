@@ -6,8 +6,8 @@ os.system("cls || clear")
 class Pessoas:
     nome: str
     data: str
-    rg: float
-    cpf: float
+    rg: int
+    cpf: int
     
     def solicitar_dados(self):
         print(f"\nNome: {self.nome} \nData de Nascimento: {self.data} \nRG: {self.rg} \nCPF: {self.cpf}")
@@ -19,8 +19,8 @@ for i in range (QUANTIDADE_PESSOAS):
     pessoa = Pessoas(
         nome = input("Digite o nome do usuario: "),
         data = str(input("Digite a data de nascimento do usuario: ")),
-        rg = float(input("Digite o RG do usuario: ")),
-        cpf = float(input("Digite o CPF do usuario: "))
+        rg = int(input("Digite o RG do usuario: ")),
+        cpf = int(input("Digite o CPF do usuario: "))
     )       
 lista_pessoas.append(pessoa)
 nome_arquivo = "funcionarios.txt"
@@ -29,4 +29,5 @@ with open (nome_arquivo, "w") as arquivo_pessoa:
         arquivo_pessoa.write(f"{pessoa.nome}\n{pessoa.data}\n{pessoa.rg}\n{pessoa.cpf}\n")
 
 print("\nexibindo dados") 
+
 
