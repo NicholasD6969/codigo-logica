@@ -36,5 +36,4 @@ try:
         for dado in dados:
             print(f"{dado.strip()}")
 except FileNotFoundError:
-    print("Arquivo não encontrado")            
-
+    print("Arquivo não encontrado")         

@@ -1,0 +1,4 @@
+Nome: gsf, Autor: sg, Categoria: sgs, Preço: 35.53
+Nome: sg, Autor: dg, Categoria: dgd, Preço: 35.35
+Nome: gsg, Autor: fsf, Categoria: fs, Preço: 535.35
+Nome: dgd, Autor: dgd, Categoria: gs, Preço: 353.35
